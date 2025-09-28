@@ -1,0 +1,26 @@
+{
+    "name": "gabbro-php/middleware",
+    "version": "1.006478",
+    "license": "MIT",
+    "description": "Middleware and Routing",
+    "type": "library",
+
+    "authors": [
+        {
+            "name": "Daniel Bergløv",
+            "email": "d.bergloev@cloudhome.dk"
+        }
+    ],
+
+    "require": {
+        "gabbro-php/base": "1.*",
+        "gabbro-php/http": "1.*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "gabbro\\": "src/"
+        },
+        "files": ["bootstrap.php"]
+    }
+}
